@@ -28,6 +28,7 @@ h1 {
 
 h2 {
     font-size: 4rem;
+    line-height: 1.2;
 }
 
 h3 {
@@ -146,4 +147,36 @@ img {
         flex-basis: calc(33.3% - 2rem);
         order: 2;
     }
+}
+
+.blog-entry {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.blog-entry:last-of-type {
+    border: none;
+}
+
+.courses-list {
+    padding: 0;
+    list-style: none;
+}
+
+.course {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.course:last-of-type {
+    border-bottom: none;
+}
+
+.course p {
+    font-family: 'PT-Sans', sans-serif;
+    font-weight: 700;
+}
+
+.course p span {
+    font-weight: 400;
 }
